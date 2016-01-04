@@ -1,20 +1,12 @@
 # hrefz
 
-hrefz is a module that grabs links from a  specified url and saves them inside a text file
-
-
-### Built on
-
-hrefz uses:
-
-* [cheerio](https://github.com/cheeriojs/cheerio) - to scrape the website
-* [request](https://github.com/request/request) - to grab the website
+hrefz downloads web content from websites.
 
 
 ### Installation
 
 ```sh
-$ npm i hrefz
+$ npm install hrefz
 ```
 
 ### Use
@@ -22,10 +14,23 @@ $ npm i hrefz
 ```javascript
 var hrefz = require("hrefz");
 
-//the first argument is the URL and the second is a filename
-var links = hrefz.grabLinks("http://yourwebsite.com", "nameoffile");
+//downloads all link urls from a website.
+hrefz.grabLinks("http://yourwebsite.com", "chooseafilename");
+
+//downloads all paragraphs from a website
+hrefz.grabParagraphs("http://yourwebsite.com", "chooseafilename");
+
+//downloads all images src's from a website
+hrefz.grabImages("http://yourwebsite.com", "chooseafilename");
 
 ```
+
+### Built on
+
+hrefz uses:
+
+* [cheerio](https://github.com/cheeriojs/cheerio) - to scrape the website
+* [request](https://github.com/request/request) - to grab the website
 
 License
 ----
