@@ -1,0 +1,31 @@
+{
+  "name": "hrefz",
+  "version": "0.1.0",
+  "description": "grabs all links from a website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xDinomode/hrefz.git"
+  },
+  "keywords": [
+    "href",
+    "links",
+    "download",
+    "anchor",
+    "tag",
+    "hrefs"
+  ],
+  "author": "xDinomode <xdinomode@gmail.com> (https://github.com/xDinomode)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xDinomode/hrefz/issues"
+  },
+  "homepage": "https://github.com/xDinomode/hrefz#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.67.0"
+  }
+}
