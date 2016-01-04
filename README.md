@@ -17,10 +17,7 @@ hrefz uses:
 $ npm i hrefz
 ```
 
-License
-----
-
-MIT
+### Use
 
 ```javascript
 var hrefz = require("hrefz");
@@ -29,3 +26,8 @@ var hrefz = require("hrefz");
 var links = hrefz.grabLinks("http://yourwebsite.com", "nameoffile");
 
 ```
+
+License
+----
+
+MIT
